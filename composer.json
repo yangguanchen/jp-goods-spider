@@ -1,0 +1,25 @@
+{
+    "name": "yangguanchen/jp-goods-spider",
+    "description": "spider goods info from jp website",
+    "keywords": ["spider", "japan", "goods"],
+    "license": "MIT",
+    "homepage": "https://github.com/yangguanchen/jp-goods-spider",
+    "support": {
+        "issues": "https://github.com/yangguanchen/jp-goods-spider/issues",
+        "source": "https://github.com/yangguanchen/jp-goods-spider"
+    },
+    "authors": [
+        {
+            "name": "yangguanchen",
+            "email": "yang.guanchen@adways.cn"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "sunra/php-simple-html-dom-parser": "1.5.*",
+        "curl/curl": "1.2.*"
+    },
+    "autoload": {
+        "psr-4": {"": ""}
+    }
+}
