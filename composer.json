@@ -15,11 +15,13 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0",
+        "php": "~5.5",
         "sunra/php-simple-html-dom-parser": "1.5.*",
         "curl/curl": "1.2.*"
     },
     "autoload": {
-        "psr-4": {"": ""}
+        "psr-4": {
+            "Adways\\JPGoodsSpider\\": "src/"
+        }
     }
 }
